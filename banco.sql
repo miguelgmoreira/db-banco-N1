@@ -1,3 +1,7 @@
+CREATE DATABASE IF NOT EXISTS banco;
+
+USE banco;
+
 CREATE TABLE Banco (
     codigo_banco INT PRIMARY KEY,
     nome VARCHAR(255)
